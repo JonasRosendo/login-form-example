@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("../img/roadbg.jpg") no-repeat ;
+    background-size: cover;
+}
+
+.login{
+    width:320px;
+    height: 420px;
+    background: #000000;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+.login img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 110px;
+    margin-top: -50px;
+}
+
+.login h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login form{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 20px; 
+}
+
+.login form label{
+    padding: 4px;
+}
+
+.login form input{
+    width: 90%;
+    min-height: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login form button{
+    width: 97%;
+    margin-top: 10px;
+    padding: 10px;
+    background: orangered;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.login form button:hover{
+    background: orange;
+}
+
+.login p{
+    text-align: center;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover{
+    color: orange;
+}
+
+.login #error{
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+}
+
